@@ -14,42 +14,6 @@ This framework focuses on **structural and integration-level validation**, not r
 - Test Design: Gherkin (BDD)
 - Configuration: Environment-based config handling
 
-## Project Folder Structure
-project-root/
-│
-├── README.md
-├── requirements.txt
-│
-├── config/
-│ └── config.py
-│
-├── features/
-│ ├── authorization.feature
-│ ├── cancel.feature
-│ ├── capture.feature
-│ ├── customer.feature
-│ ├── enrollment.feature
-│ ├── purchase.feature
-│ ├── refund.feature
-│ ├── verify.feature
-│ └── environment.py
-│
-├── payloads/
-│ └── payment_payloads.py
-│
-├── steps/
-│ ├── authorization_steps.py
-│ ├── cancel_steps.py
-│ ├── capture_steps.py
-│ ├── customer_steps.py
-│ ├── enrollment_steps.py
-│ ├── purchase_steps.py
-│ ├── refund_steps.py
-│ └── verify_steps.py
-│
-└── utils/
-└── api_client.py
-
 
 
 ## Configuration
